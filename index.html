@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
+            background-color: #f1f3f4;
             margin: 0;
             padding: 0;
             color: #212529;
@@ -17,32 +17,23 @@
             margin: 50px auto;
             padding: 20px;
             background: #fff;
-            border: 1px solid #dee2e6;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         .header {
             text-align: center;
             margin-bottom: 20px;
         }
         .header img {
-            max-width: 150px;
+            max-width: 180px;
             height: auto;
-        }
-        .avatar {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .avatar img {
-            max-width: 100%;
-            height: auto;
-            max-height: 150px;
         }
         .content {
             line-height: 1.6;
+            font-size: 16px;
         }
         .content strong {
-            color: #dc3545;
+            color: #d93025;
         }
         .buttons {
             margin-top: 20px;
@@ -51,17 +42,19 @@
         .button {
             display: inline-block;
             margin: 10px;
-            padding: 10px 20px;
+            padding: 12px 24px;
             font-size: 16px;
+            font-weight: bold;
             color: #fff;
-            background-color: #007bff;
+            background-color: #1a73e8;
             border: none;
             border-radius: 5px;
             text-decoration: none;
             cursor: pointer;
+            transition: background 0.3s;
         }
         .button:hover {
-            background-color: #0056b3;
+            background-color: #125abd;
         }
         .footer {
             margin-top: 20px;
@@ -69,30 +62,22 @@
             text-align: center;
             color: #6c757d;
         }
-        .footer a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .footer a:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        
         <div class="header">
-            
+            <img src="image.png" alt="Госуслуги">
         </div>
         <div class="content">
             <p>Замечена подозрительная активность Вашей учетной записи <strong>Госуслуги</strong>:</p>
             <ul>
-                <li>Mecтo вxoдa:Kharkiv, Ukraine 94.158.152.248</li>
+                <li>Место входа: <strong>Kharkiv, Ukraine 94.158.152.248</strong></li>
                 <li>
                     <ul>
                         <li>Смена пароля доступа</li>
-                        <li>Выгрузка персональных данных:
-                        <li>Считывание электронной подписи.
+                        <li>Выгрузка персональных данных</li>
+                        <li>Считывание электронной подписи</li>
                     </ul>
                 </li>
             </ul>
@@ -101,8 +86,7 @@
                 <a href="tel:88002000706" class="button">Позвонить на горячую линию</a>
                 <a href="https://t.me/RobootMax_bot" target="_blank" class="button">Перейти в чат-бот</a>
             </div>
-            <p>B cлyчae ecли линия пepeгpyжeнa oжидaйтe в тeчeниe 30-ти минyт  звoнкa oт cпeциaлиcтa тexничecкoгo oтдeлa.
-Baш идeнтификaциoнный нoмep: <strong>4675</strong></p>
+            <p>В случае если линия перегружена, ожидайте в течение 30-ти минут звонка от специалиста технического отдела. Ваш идентификационный номер: <strong style="color: #d93025; font-size: 18px;">4675</strong></p>
         </div>
         <div class="footer">
             <p>Будьте осторожны! Никогда не передавайте свои личные данные третьим лицам.</p>
